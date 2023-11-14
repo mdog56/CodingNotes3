@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="./resources/css/index.css">
+  </head>
+  <body>
+      <nav>
+        <a id="GitNotes" href="#Githead">Git Notes</a>
+        <a id="HTMLNotes" href="#HTMLhead">HTML Notes</a>   
+        <a id="CSSNotes" href="#CSShead">CSS Notes</a>
+      </nav>
+    <div class="Git">
+      <h1 id="Githead">Git Notes</h1>
+      <table class="Tables">
+        <thead>
+          <tr>
+            <th scope="col">Command</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ls</td>
+            <td class="right">Lists the current directory contents</td>
+          </tr>
+          <tr>
+            <td>pwd</td>
+            <td class="right">Prints the working directory</td>
+          </tr>
+          <tr>
+            <td>cd</td>
+            <td class="right">Change directory</td>
+          </tr>
+          <tr>
+            <td>cd ..</td>
+            <td class="right">Go up one directory</td>
+          </tr>
+          <tr>
+            <td>cd ../..</td>
+            <td class="right">Go up two directories</td>
+          </tr>
+          <tr>
+            <td>cd ../foldername</td>
+            <td class="right">Go up one directory, then down into a defined directory</td>
+          </tr>
+          <tr>
+            <td>mkdir</td>
+            <td class="right">Create a directory</td>
+          </tr>
+          <tr>
+            <td>touch</td>
+            <td class="right">Create a file</td>
+          </tr>
+          <tr>
+            <td>tab</td>
+            <td class="right">Auto-completes your command</td>
+          </tr>
+          <tr>
+            <td>clear</td>
+            <td class="right">Clears your terminal</td>
+          </tr>
+          <tr>
+            <td>echo ""</td>
+            <td class="right">Prints text or string data into the terminal</td>
+          </tr>
+          <tr>
+            <td>cat</td>
+            <td class="right">Reads a file sequentially and prints it to the standard output</td>
+          </tr>
+          <tr>
+            <td>&uarr;</td>
+            <td class="right">Goes up</td>
+          </tr>
+          <tr>
+            <td>&darr;</td>
+            <td class="right">Goes down</td>
+          </tr>
+          <tr>
+            <td>&gt;</td>
+            <td class="right">Redirects the standard output of the command on the left to thefile on the right</td>
+          </tr>
+          <tr>
+            <td>&gt;&gt;</td>
+            <td class="right">Adds the standard output of the command on the left to the file on the right</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="HTML">
+      <h1 id="HTMLhead">HTML Notes</h1>
+      <table class="Tables">
+        <thead>
+          <tr>
+            <th scope="col">Code</th>
+            <th scope="col">Description</th>
+            <th scope="col">Specification</th>
+            <th scope="col">Explanation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>&lt;&excl;DOCTYPE&gt;</td>
+            <td>Tells browser what type of document it is</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>html</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;html&gt;&lt;&#47;html&gt;</td>
+            <td>The root of an html document</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>lang&equals;&quot;&quot;</td>
+            <td>Specifies language</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="descriptor">Value</td>
+            <td>en</td>
+            <td class="right">English</td>
+          </tr>
+          <tr>
+            <td>&lt;head&gt;&lt;&#47;head&gt;</td>
+            <td>Contains metadata</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;meta&gt;</td>
+            <td>Defines metadata</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>charset&equals;&quot;&quot;</td>
+            <td>Specifies character encoding</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="descriptor">Value</td>
+            <td>UTF-8</td>
+            <td class="right">standard characters</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>name&equals;&quot;&quot;</td>
+            <td>Specifies the name of the metadata (name and content attributes go in the same meta tag)</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="descriptor">Value</td>
+            <td>viewport</td>
+            <td class="right">Specifies the user's visible area</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>content&equals;&quot;&quot;</td>
+            <td>Specifies the content of the metadata</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="descriptor">Value</td>
+            <td>width=device-width, initial-scale=1.0</td>
+            <td class="right">Standard zoom level</td>
+          </tr>
+          <tr>
+            <td>&lt;title&gt;&lt;&#47;title&gt;</td>
+            <td>Defines title which is displayed in the tab</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;link&gt;</td>
+            <td>Links a CSS file to the HTML document</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>rel&equals;&quot;&quot;</td>
+            <td>Specifies the relationship between the current document and the linked resource</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>href&equals;&quot;&quot;</td>
+            <td>Defines the URL of the hyperlink</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="descriptor">Value</td>
+            <td>./abc.html</td>
+            <td class="right">relative path to another file in the same folder you are currently in</td>
+          </tr>
+          <tr>
+            <td>&lt;body&gt;&lt;&#47;body&gt;</td>
+            <td>Content that is displayed to the screen</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;div&gt;&lt;&#47;div&gt;</td>
+            <td>Defines a block of content</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>id&equals;&quot;name&quot;</td>
+            <td>Identifies the element</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>class&equals;&quot;&quot;</td>
+            <td>Puts the element into a class</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;header&gt;&lt;&#47;header&gt;</td>
+            <td>Container for introductory content</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;nav&gt;&lt;&#47;nav&gt;</td>
+            <td>Container for navigation links</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;main&gt;&lt;&#47;main&gt;</td>
+            <td>Container for main content</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;section&gt;&lt;&#47;section&gt;</td>
+            <td>Container for sectioning content that relates to a shared theme</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;article&gt;&lt;&#47;article&gt;</td>
+            <td>Container for independent, self-contained content</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;aside&gt;&lt;&#47;aside&gt;</td>
+            <td>Container for complementary content</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;figure&gt;&lt;&#47;figure&gt;</td>
+            <td>Container for images</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;figcaption&gt;&lt;&#47;figcaption&gt;</td>
+            <td>Caption for images</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;footer&gt;&lt;&#47;footer&gt;</td>
+            <td>Container for footer content</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;br&gt;</td>
+            <td>Line break</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;&excl;&dash;&dash;comment&dash;&dash;&gt;</td>
+            <td>Comment (or: /* abc */ or control plus /)</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;style&gt;&lt;&#47;style&gt;</td>
+            <td>Defines CSS styles.  Content is CSS code</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;h1&gt;&lt;&#47;h1&gt;&comma;&lt;h2&gt;&lt;&#47;h2&gt;&comma;&lt;h3&gt;&lt;&#47;h3&gt;&hellip;&lt;h6&gt;&lt;&#47;h6&gt;</td>
+            <td>Defines a heading</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>style=""</td>
+            <td>Defines CSS styles</td>
+            <td class="right"></td>
+            </td>
+          </tr>
+          <tr>
+            <td>&lt;p&gt;&lt;&#47;p&gt;</td>
+            <td>Defines a paragraph</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;span&gt;&lt;&#47;span&gt;</td>
+            <td>Defines an inline span of text</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;script&gt;&lt;&#47;script&gt;</td>
+            <td>Defines some Javascript</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;a&gt;&lt;&#47;a&gt;</td>
+            <td>Defines a hyperlink</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>href&equals;&quot;&quot;</td>
+            <td>Defines the URL of the hyperlink</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="descriptor">Value</td>
+            <td>#abc</td>
+            <td class="right">links to an id of somewhere else on the same page</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>target&equals;&quot;&quot;</td>
+            <td>Specifies how a hyperlink should open</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="descriptor">Value</td>
+            <td>_blank</td>
+            <td class="right">Opens in a new tab</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>title&equals;&quot;&quot;</td>
+            <td>Specifies extra information about an element</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;button&gt;&lt;&#47;button&gt;</td>
+            <td>Defines a button</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>type&equals;&quot;&quot;</td>
+            <td>Specifies the type of button</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;ol&gt;&lt;&#47;ol&gt;</td>
+            <td>Defines an ordered list</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;ul&gt;&lt;&#47;ul&gt;</td>
+            <td>Defines an un-ordered list</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;li&gt;&lt;&#47;li&gt;</td>
+            <td>Defines a list item</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;img&gt;</td>
+            <td>Defines an image</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>src&equals;&quot;&quot;</td>
+            <td>Defines the URL of the image</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>alt&equals;&quot;&quot;</td>
+            <td>Describes the image</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>width&equals;&quot;&quot;</td>
+            <td>Defines the width of the image in pixels</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>height&equals;&quot;&quot;</td>
+            <td>Defines the height of the image in pixels</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;video&gt;&lt;&#47;video&gt;</td>
+            <td>Defines a video</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>controls</td>
+            <td>Specifies that video controls should be displayed</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>autoplay</td>
+            <td>Specifies that video playback should begin automatically</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>loop</td>
+            <td>Specifies that video playback should be repeated</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;audio&gt;&lt;&#47;audio&gt;</td>
+            <td>Defines audio</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>controls</td>
+            <td>Specifies that audio controls should be displayed</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>autoplay</td>
+            <td>Specifies that audio playback should begin automatically</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>loop</td>
+            <td>Specifies that audio playback should be repeated</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;source&gt;</td>
+            <td>Defines a media source</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;table&gt;&lt;&#47;table&gt;</td>
+            <td>Defines a table</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;thead&gt;&lt;&#47;thead&gt;</td>
+            <td>Defines a table header</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;tbody&gt;&lt;&#47;tbody&gt;</td>
+            <td>Defines a table body</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;tfoot&gt;&lt;&#47;tfoot&gt;</td>
+            <td>Defines a table footer</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;tr&gt;&lt;&#47;tr&gt;</td>
+            <td>Defines a table row</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;th&gt;&lt;&#47;th&gt;</td>
+            <td>Defines a table header cell</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>scope&equals;&quot;&quot;</td>
+            <td>Specifies if the header cell is a header for a column or a row</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="descriptor">Value</td>
+            <td>col</td>
+            <td class="right">Declares a column header</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="descriptor">Value</td>
+            <td>row</td>
+            <td class="right">Declares a row header</td>
+          </tr>
+          <tr>
+            <td>&lt;td&gt;&lt;&#47;td&gt;</td>
+            <td>Defines a table data cell</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>colspan&equals;&quot;&quot;</td>
+            <td>Defines the number of columns the cell spans</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>rowspan&equals;&quot;&quot;</td>
+            <td>Defines the number of rows the cell spans</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;form&gt;&lt;&#47;form&gt;</td>
+            <td>Defines a form for user input</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>action&equals;&quot;&quot;</td>
+            <td>Defines the URL of the form submission</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;input&gt;</td>
+            <td>Defines an input field</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>type&equals;&quot;&quot;</td>
+            <td>Specifies the type of input field</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="descriptor">Value</td>
+            <td>text</td>
+            <td class="right">Defines a text input field</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="descriptor">Value</td>
+            <td>submit</td>
+            <td class="right">Specifies a submit button which submits all form values to a form-handler</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>name&equals;&quot;&quot;</td>
+            <td>Specifies the name of the input field</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Attribute</td>
+            <td>value&equals;&quot;&quot;</td>
+            <td>Specifies the value of the input field</td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;em&gt;&lt;&#47;em&gt;</td>
+            <td>Emphasized text</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;small&gt;&lt;&#47;small&gt;</td>
+            <td>Small text</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&lt;strong&gt;&lt;&#47;strong&gt;</td>
+            <td>Makes text bold</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&amp;amp&semi;</td>
+            <td>&amp;</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&amp;lt&semi;</td>
+            <td>&lt;</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&amp;gt&semi;</td>
+            <td>&gt;</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&amp;apos&semi;</td>
+            <td>'</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&amp;quot&semi;</td>
+            <td>&quot;</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+          <tr>
+            <td>&amp;copy</td>
+            <td>&copy</td>
+            <td></td>
+            <td class="right"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="CSS">
+      <h1 id="CSShead">CSS Notes</h1>
+      <table class="Tables">
+        <thead>
+          <tr>
+            <th scope="col">Category</th>
+            <th scope="col">Code</th>
+            <th scope="col">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Selector</td>
+            <td>nameOfTag</td>
+            <td class="right">Type selector is the same as the HTML tag (* selects all elements)</td>
+          </tr>
+          <tr>
+            <td>Selector</td>
+            <td>.ValueOfClassAttribute</td>
+            <td class="right">Selects all elements of a common class</td>
+          </tr>
+          <tr>
+            <td>Selector</td>
+            <td>#NameOfId</td>
+            <td class="right">Selects the element with that ID value</td>
+          </tr>
+          <tr>
+            <td>Selector</td>
+            <td>[NameOfAttribute]</td>
+            <td class="right">Selects all the elements with a certain Attribute</td>
+          </tr>
+          <tr>
+            <td>Selector</td>
+            <td>type[attribute*="value"</td>
+            <td class="right">Selects all the elements of a certain type where the attribute contains any instance of the given value</td>
+          </tr>
+          <td>Selector</td>
+          <td>element1&gt;element2</td>
+          <td class="right">Selects all the element2 elements who's parents are element1 elements</td>
+          <tr>
+            <td>Selector</td>
+            <td>element1+element2</td>
+            <td class="right">Selects the first element2 element that is placed immediately after element1 elements</td>
+          </tr>
+          <tr>
+            <td>Rule</td>
+            <td>&amp;font-face</td>
+            <td class="right">Specifies a custom font with which to display text</td>
+          </tr>
+          <tr>
+            <td>Pseudo-element</td>
+            <td>element::before</td>
+            <td class="right">Insert something before the content of each element.  </td>
+          <tr>
+            <td>Pseudo-element</td>
+            <td>element::after</td>
+            <td class="right">Insert something after the content of each element</td>
+          </tr>
+          <tr>
+            <td>Pseudo-class Selector</td>
+            <td>element:link</td>
+            <td class="right">Selects all unvisited links.  Set pseudo-class rules in the proper order so that the styles cascade correctly</td>
+          </tr>
+          <tr>
+            <td>Pseudo-class Selector</td>
+            <td>element:visited</td>
+            <td class="right">Selects that element if it's been visited</td>
+          </tr>
+          <tr>
+            <td>Pseudo-class Selector</td>
+            <td>element:hover</td>
+            <td class="right">Selects that element when it is hovered over</td>
+          </tr>
+          <tr>
+            <td>Pseudo-class Selector</td>
+            <td>element:active</td>
+            <td class="right">Selects that element when it's clicked on</td>
+          </tr>
+          <tr>
+            <td>Pseudo-class Selector</td>
+            <td>element:focus</td>
+            <td class="right">Selects that elements that has focus</td>
+          </tr>
+          <tr>
+            <td>Pseudo-class Selector</td>
+            <td>element:disabled</td>
+            <td class="right">Selects that elements that's disabled</td>
+          </tr>
+          <tr>
+            <td>Pseudo-class Selector</td>
+            <td>:not(element)</td>
+            <td class="right">Selects all elements that don't match the given selector</td>
+          </tr>
+          <tr>
+            <td>Pseudo-class Selector</td>
+            <td>:last-child</td>
+            <td class="right">Matches every element that is the last child of its parent</td>
+          </tr>
+          <tr>
+            <td>Declaration</td>
+            <td>{}</td>
+            <td class="right">Declaration block</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>content:</td>
+            <td class="right">Specifies the content of an element</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>""</td>
+            <td class="right">empty string</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>color:</td>
+            <td class="right">Specifies the color of the text</td>
+            </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>black;</td>
+            <td class="right">named colors <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/named-color" target="_blank">(all colors)</a></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>rgba(r, g, b, a);</td>
+            <td class="right">red, green, blue (range:0-255), and alpha/transparency (range:0-1)</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>hsla(h, s, l, a);</td>
+            <td class="right">hue (range 0-360), saturation, lightness (range: 0-100%), and alpha/transparency (range:0-1)</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>#rrggbbaa;</td>
+            <td class="right">hexadecimal integers (range:00-ff)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>background-color:</td>
+            <td class="right">Specifies the color of the background</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>black;</td>
+            <td class="right">named colors <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/named-color" target="_blank">(all colors)</a></td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>rgba(r, g, b, a);</td>
+            <td class="right">red, green, blue (range:0-255), and alpha/transparency (range:0-1)</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>hsla(h, s, l, a);</td>
+            <td class="right">hue (range 0-360), saturation, lightness (range: 0-100%), and alpha/transparency (range:0-1)</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>#rrggbbaa;</td>
+            <td class="right">hexadecimal integers (range:00-ff)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>font-size:</td>
+            <td class="right">Specifies the size of the text</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>12px;</td>
+            <td class="right">Size in pixels</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>font-family:</td>
+            <td class="right">Specifies the font</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>Arial;</td>
+            <td class="right">Use apostrophes for multiple-worded names of fonts and list multiple fonts with commas to set fallback fonts (<a href="https://www.cssfontstack.com/" target="_blank">list of fonts</a>)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>font-weight:</td>
+            <td class="right">Specifies the font boldness</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>normal;</td>
+            <td class="right">bold, lighter, bolder, 0-1000 (normal is default, lighter/bolder is in relation to the parent element, and some fonts don't allow all boldness values)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>font-style:</td>
+            <td class="right">Specifies if text is italicized</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>italic;</td>
+            <td class="right">normal or italic (normal is default)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>text-decoration:</td>
+            <td class="right">Specifies if text is underlined</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>underline;</td>
+            <td class="right">none or underline (none is default)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>text-transform:</td>
+            <td class="right">Specifies if text is capitalized</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>uppercase;</td>
+            <td class="right">uppercase or lowercase (lowercase is default)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>line-height:</td>
+            <td class="right">Specifies the line height of the text</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>1.5;</td>
+            <td class="right">font size multiplier applied to line height.  Use this when not doing normal</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>normal;</td>
+            <td class="right">normal or inherit (normal is default)</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>3em;</td>
+            <td class="right">line height multiplier based on font size</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>150%;</td>
+            <td class="right">percentage</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>32px;</td>
+            <td class="right">set by pixel</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>letter-spacing:</td>
+            <td class="right">Specifies the spacing between letters</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>2px;</td>
+            <td class="right">set by pixel</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>1.5em;</td>
+            <td class="right">set by em</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>word-spacing:</td>
+            <td class="right">Specifies the spacing between words</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>2px;</td>
+            <td class="right">set by pixel/pt/cm/em</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>text-align:</td>
+            <td class="right">Specifies the alignment of the text</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>left;</td>
+            <td class="right">left, center, right, justify, initial, inherit</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>vertical-align:</td>
+            <td class="right">Sets vertical alignment of an inline, inline-block, or table-cell box</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>top;</td>
+            <td class="right">top, middle, bottom, baseline, text-top, text-bottom, sub, super</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>10em;</td>
+            <td class="right">Set by em or px</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>20%</td>
+            <td class="right">Set by percentage</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>inherit;</td>
+            <td class="right">inherit, initial, revert, revert-layer, unset</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>opacity:</td>
+            <td class="right">Specifies the opacity of an element</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>0.5;</td>
+            <td class="right">0-1</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>background-image:</td>
+            <td class="right">Specifies an image to be used as a background</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>url('image.png');</td>
+            <td class="right">Separate urls with a comma for multiple images;</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>none;</td>
+            <td class="right">none, initial, inherit (none is default)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>height:</td>
+            <td class="right">Specifies the height of an element</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>100px;</td>
+            <td class="right">Set by pixel, em, or vh (viewport's height)</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>75%</td>
+            <td class="right">Set by percentage</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>max-content;</td>
+            <td class="right">max-content, min-content, fit-content (5em), auto</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>inherit;</td>
+            <td class="right">inherit, initial, revert, revert-layer, unset</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>width:</td>
+            <td class="right">Specifies the width of an element.  Values the same as height, except no vh</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>min-width:</td>
+            <td class="right">Specifies the minimum width of an element (mins and maxs takes priority over flex-grow and flex-shrink)</td>
+          </tr>
+          <tr>
+            <td class="descriptor"></td>
+            <td>150px;</td>
+            <td class="right">Set by pixel, em, or ch (by width of 0 of that font)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>max-width:</td>
+            <td class="right">Specifies the maximum width of an element</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>min-height:</td>
+            <td class="right">Specifies the minimum height of an element</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>max-height:</td>
+            <td class="right">Specifies the maximum height of an element</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>display:</td>
+            <td class="right">Specifies how an element is displayed</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>block;</td>
+            <td class="right">block, inline, inline-block, flex, inline-flex, grid, inline-grid, flow-root</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>justify-content:</td>
+            <td class="right">Specifies how the browser distributes space between and around content items</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>flex-end;</td>
+            <td class="right">flex-start (items positioned starting from the left), center, space-around, space-between</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>align-items:</td>
+            <td class="right">Makes it possible to space flex items vertically</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>flex-start;</td>
+            <td class="right">flex-end, center, baseline, stretch</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>flex-grow:</td>
+            <td class="right">Allows you to specify if items should grow to fill a container </td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>1;</td>
+            <td class="right">Sets how much the item grows as the space increases (default is 0)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>flex-shrink:</td>
+            <td class="right">Allows you to specify how items should shrink to fill a container</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>1;</td>
+            <td class="right">Sets how much the item shrinks as the space decreases (default is 1)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>flex-basis:</td>
+            <td class="right">Specifies the initial size of an item</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>auto;</td>
+            <td class="right">Sets the initial size of an item to the size of its content, px.</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>flex:</td>
+            <td class="right">Shorthand for flex-grow property, flex-shrink property, and flex-basis property</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>1 1 150px;</td>
+            <td class="right">Sets the grow, shrink, and basis properties to 1, 1, and 150px respectively</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>flex-wrap:</td>
+            <td class="right">Allows you to specify if items should wrap around the container</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>nowrap;</td>
+            <td class="right">nowrap (prevents items from wrapping (move down a line) (default)), wrap (move down to the next line), wrap-reverse (wrap, but the order of rows within a flex container is reversed)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>align-content:</td>
+            <td class="right">Makes it possible to space flex items horizontally</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>flex-start;</td>
+            <td class="right">flex-end, center, space-around, space-between,stretch</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>flex-direction:</td>
+            <td class="right">Allows you to switch the main axis wth the cross axis.</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>row;</td>
+            <td class="right">row (default), row-reverse, column, column-reverse</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>flex-flow</td>
+            <td class="right">Shorthand used to declare both the flex-wrap and flex-direction properties</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>column wrap;</td>
+            <td class="right">flex-direction of column and flex-wrap of wrap</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>position:</td>
+            <td class="right">Specifies the position of an element</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>relative;</td>
+            <td class="right">static, relative, absolute, fixed, sticky</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>list-style:</td>
+            <td class="right">Shorthand for all list properties (image, position, and type)</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>square;</td>
+            <td class="right">Square bullet points for type</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>url("../img/shape.png");</td>
+            <td class="right">Specifies image</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>inside;</td>
+            <td class="right">inside, or outside</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>list-style-type:</td>
+            <td class="right">Sets the type of list style</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>circle;</td>
+            <td class="right">circle, disc, square, decimal, georgian, trad-chinese-informal, kannada</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>padding:</td>
+            <td class="right">Sets the padding of an element (-top, -right, -bottom, -left to be more specific)</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>1px;</td>
+            <td class="right">Set by px (can shorthand w/just padding property by adding space before the semi-colon and giving next padding value)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>margin:</td>
+            <td class="right">Sets the margin of an element (-top, -right, -bottom, -left to be more specific)</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>1px;</td>
+            <td class="right">Set by px, pt, cm (can shorthand w/just margin property by adding space before the semi-colon and giving next margin value)</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>auto;</td>
+            <td class="right">Centers (can shorthand w/just margin property by adding space before the semi-colon and giving next margin value)</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>10%;</td>
+            <td class="right">Set by percentage (can shorthand w/just margin property by adding space before the semi-colon and giving next margin value)</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>inherit;</td>
+            <td class="right">Set by taking margin value from parent (can shorthand w/just margin property by adding space before the semi-colon and giving next margin value)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>border:</td>
+            <td class="right">Describes the border (can specify with (-bottom, -left, -right, -top) and -width, -style, -color)</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>1px solid red;</td>
+            <td class="right">-width (thin, thick, medium, px, em, cm, rem (root em)), -style (dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden) ,-color (same as color)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>border-radius:</td>
+            <td class="right">Modifies the corners of an element's border box</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>10px;</td>
+            <td class="right">Set by px</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>50%;</td>
+            <td class="right">Set by percentage</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>box-shadow:</td>
+            <td class="right">Adds shadow effects around an element's frame</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>10px 10px 10px 10px red;</td>
+            <td class="right">Up to four lengths (pixels) and a color.  Just two values gets interpreted as &lt;offset-x&gt; and &lt;offset-y&gt; values</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>overflow:</td>
+            <td class="right">Sets the overflow of an element (can specify with -x and -y)</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>hidden;</td>
+            <td class="right">hidden, scroll, auto, visible, clip (visible is default)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>visibility</td>
+            <td class="right">Sets the visibility of an element</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>hidden;</td>
+            <td class="right">hidden, visible, collapse</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>z-index:</td>
+            <td class="right">Sets the z-index of an element</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>10;</td>
+            <td class="right">Set by integer</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>box-sizing:</td>
+            <td class="right">Sets the box sizing of an element</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>border-box;</td>
+            <td class="right">border-box, content-box (default)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>float:</td>
+            <td class="right">Sets the float of an element</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>left;</td>
+            <td class="right">left, right, none, inherit.</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>clear:</td>
+            <td class="right">Sets the clear of an element</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>both;</td>
+            <td class="right">both, left, right, none, inline-start, inline-end</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>inherit;</td>
+            <td class="right">inherit, initial, revert, revert-layer, unset</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>filter:</td>
+            <td class="right">Sets the filter of an element</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>blur(5px);</td>
+            <td class="right">blur(px), brightness(0.4), contrast(200%), drop-shadow(16px 16px 20px blue), grayscale(50%), hue-rotate(90deg), invert(75%), opacity(25%), saturate(30%), sepia(60%) (list multiple by adding a space in between them)</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>url("filters.svg#filter-id")</td>
+            <td class="right">set filter via url</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>background-size:</td>
+            <td class="right">Sets the size of the background image</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>cover;</td>
+            <td class="right">cover, contain (default)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>cursor:</td>
+            <td class="right">Sets the cursor of an element</td>
+          </tr>
+          <tr>
+            <td class="descriptor">Value</td>
+            <td>pointer;</td>
+            <td class="right">pointer, auto</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>&excl;important;</td>
+            <td class="right">Used after a declaration to make it a top priority even if its specificity is less than another property</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+  <footer>
+  </footer>
+</html>

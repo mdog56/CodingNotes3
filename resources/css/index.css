@@ -1,0 +1,95 @@
+body {
+  background-color: hsla(230, 0%, 15%, 1);
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: hsla(230, 0%, 70%, 1);
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: hsla(230, 0%, 0%, 1);
+}
+
+nav a:visited {
+  color: hsla(230, 0%, 0%, 1);
+}
+
+body a {
+  color: hsla(230, 0%, 60%, 1)
+}
+
+#GitNotes {
+  text-align: center;
+  float: left;
+  margin: 8px 0;
+  width: 33.3%;
+}
+
+#HTMLNotes {
+  text-align: center;
+  display: inline-block;
+  margin: 8px 0;
+  width: 33.3%;
+}
+
+#CSSNotes {
+  text-align: center;
+  float: right;
+  margin: 8px 0;
+  width: 33.3%;
+}
+
+.Git {
+  text-align: center;
+}
+
+#Githead {
+  font-family: monospace;
+}
+
+.Tables {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  border: 1px solid white;
+}
+
+td {
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.right {
+  border-right: 1px solid white;
+}
+
+.HTML {
+  text-align: center;
+}
+
+#HTMLhead {
+  font-family: monospace;
+}
+
+.descriptor {
+  font-style: italic;
+}
+
+#CSShead {
+    font-family: monospace;
+}
+
+.CSS {
+    text-align: center;
+}
+
+footer {
+  margin-bottom: 50px;
+}
